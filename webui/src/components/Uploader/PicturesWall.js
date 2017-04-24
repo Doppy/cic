@@ -19,7 +19,7 @@ class PicturesWall extends Component {
 
   static defaultProps = {
     multiple: false,
-    action: 'http://localhost:4000/v1/media/upload',
+    action: process.env.REACT_APP_MEDIA_ENDPOINT,
   }
 
   // state = {

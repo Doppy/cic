@@ -50,7 +50,7 @@ class Uploader extends Component {
           listType="picture"
           onPreview={this.handlePreview}
           onChange={this.handleChange}
-          action="http://localhost:4000/v1/media/upload"
+          action={process.env.REACT_APP_MEDIA_ENDPOINT}
         >
           <p className="ant-upload-drag-icon" style={{ padding: 10 }}>
             <Icon type="inbox" />

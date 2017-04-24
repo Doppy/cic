@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "REACT_APP_API_PATH='http://cic.forviz.com/v1' REACT_APP_CLOUDINARY_CLOUDNAME=forviz-cic REACT_APP_CLOUDINARY_APIKEY=464728986697568 REACT_APP_CLOUDINARY_APISECRET=SmWDrXZs89nF1bQ9dbwKzBIm-VU react-scripts build",
+    "build": "REACT_APP_API_PATH='http://cic.forviz.com/v1' REACT_APP_MEDIA_ENDPOINT='http://cic.forviz.com/v1/media/upload' react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   }
